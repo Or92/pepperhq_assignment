@@ -9,4 +9,4 @@
 >node index.js
 
 and after that, the endpoint will be available on that path:
-> GET http://localhost:1337/menuand 
+> GET http://localhost:1337/menu
