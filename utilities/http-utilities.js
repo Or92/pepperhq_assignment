@@ -5,6 +5,8 @@ function makeRequest(url, method, headers, body) {
         const options = {
             url,
             method,
+            headers,
+            body
         };
 
         request(options, (err, response, body) => {
